@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".add"
+android:layoutDirection="locale"
+android:orientation="vertical"
+android:background="@android:color/holo_orange_light">
+
+<EditText
+    android:id="@+id/title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:hint="Title"
+    android:textColor="@android:color/black"
+    android:textSize="24dp" />
+
+
+    <EditText
+        android:id="@+id/url"
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="url"
+        android:textColor="@android:color/black"
+        android:textSize="24dp" />
+
+<EditText
+    android:id="@+id/text"
+    android:textSize="17dp"
+    android:textColor="@android:color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/url"
+    android:textAlignment="textStart"
+    android:gravity="start"
+    android:hint="Text" />
+
+    <Button
+        android:id="@+id/phot"
+        android:layout_above="@+id/sbit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="pick"
+        android:text="הוספת תמונה" />
+<Button
+    android:id="@+id/sbit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:onClick="save"
+    android:text="שמירה" />
+</RelativeLayout>

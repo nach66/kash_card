@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="הפרופיל שלי" app:showAsAction="never"
+        android:id="@+id/im"/>
+
+    <item android:title="אודות" app:showAsAction="never"
+        android:id="@+id/od"/>
+
+    <item android:title="התנתקות" app:showAsAction="never"
+        android:id="@+id/menu_signout"/>
+</menu>

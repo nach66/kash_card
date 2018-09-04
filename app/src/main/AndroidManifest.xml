@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.card">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/newicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/newicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".middle" />
+        <activity android:name=".add" />
+        <activity android:name=".register" />
+        <activity android:name=".listim" />
+        <activity android:name=".choose_edit" />
+        <activity android:name=".justshow" />
+        <activity android:name=".profile" />
+        <activity android:name=".p_details" />
+        <activity android:name=".waiting" />
+        <activity android:name=".send_doc" />
+        <activity android:name=".upload" />
+        <activity android:name=".edit_listim" />
+        <activity android:name=".chat" />
+        <activity android:name=".odot"></activity>
+    </application>
+
+</manifest>

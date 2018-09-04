@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/reka"
+    android:orientation="vertical"
+    android:padding="15dp">
+    <TextView
+        android:hint="הטבות"
+        android:id="@+id/ti"
+        android:textColor="#f0f0f0"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:paddingBottom="15dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+        <GridView
+            android:layout_below="@+id/ti"
+            android:gravity="center"
+            android:numColumns="2"
+            android:verticalSpacing="15dp"
+            android:horizontalSpacing="15dp"
+            android:id="@+id/gridD"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </GridView>
+ </RelativeLayout>

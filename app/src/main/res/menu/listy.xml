@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="הטבות קבועות" app:showAsAction="never"
+        android:icon="@mipmap/sal"
+        android:id="@+id/pres"/>
+
+    <item android:title="קופונים" app:showAsAction="never"
+        android:icon="@mipmap/cop"
+        android:id="@+id/changes"/>
+
+    <item android:title="אירועים" app:showAsAction="never"
+        android:icon="@mipmap/sho"
+        android:id="@+id/shows"/>
+</menu>

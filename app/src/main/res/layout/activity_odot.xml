@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textDirection="rtl"
+    tools:context=".odot"
+    android:background="@mipmap/reka"
+    android:layout_gravity="center|center_vertical"
+    android:orientation="horizontal"
+    android:padding="45dp"
+    android:layoutDirection="locale">
+
+    <TextView
+        android:id="@+id/all"
+        android:text="הק''ש קארד הוא כרטיס הטבות ייחודי לצעירי וצעירות קריית שמונה בגילאי 18-40, שמקנה הנחות בבתי עסק בקריית שמונה והסביבה."
+        android:textSize="18dp"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:textColor="#f0f0f0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/all2"
+        android:text="הכרטיס מושק במטרה להוזיל עלויות לצרכנים.יות הצפוניים.יות, לחזק עסקים מקומיים באמצעות משיכת קהל חדש וצעיר ולהגביר את תחושת השייכות והגאווה בעיר."
+        android:textSize="18dp"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:textColor="#f0f0f0"
+        android:layout_below="@+id/all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/all3"
+        android:textSize="18dp"
+        android:text="הפרויקט קם ביוזמת מרכז צעירים ורשות מקדמת תעסוקה קריית שמונה וקהילות צעירים תוצרת הארץ בקריית שמונה."
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:textColor="#f0f0f0"
+        android:paddingBottom="35dp"
+        android:layout_below="@+id/all2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:text="ניתן ליצור איתנו קשר במייל:"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_below="@+id/all3"
+        android:paddingBottom="8dp"
+        android:textStyle="bold"
+        android:textColor="#f0f0f0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textColor="#f0f0f0"
+        android:text="8kashcard@gmail.com"
+        android:id="@+id/t2"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:layout_below="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/t3"
+        android:layout_below="@+id/t2"
+        android:clickable="true"
+        android:autoLink="web"
+        android:cursorVisible="true"
+        android:linksClickable="true"
+        android:onClick="goTof"
+        android:layout_centerHorizontal="true"
+
+        android:textColor="#f0f0f0"
+        android:text="או בדף הפייסבוק"
+        android:background="@drawable/buttonshape"
+        android:textSize="20dp"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        />
+</RelativeLayout>

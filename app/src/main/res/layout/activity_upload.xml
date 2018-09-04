@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".upload"
+    android:background="@mipmap/reka"
+    android:padding="15dp">
+
+    <LinearLayout
+            android:id="@+id/imgBox"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="1dp">
+
+            <ImageView
+                android:src="@mipmap/pico"
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:scaleType="centerCrop" />
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_below="@+id/imgBox"
+            android:text="העלאת תמונה"
+            android:textColor="#F0F0F0"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_save_img"
+        android:layout_below="@+id/btn"
+        android:text="סיום"
+        android:textColor="#F0F0F0"
+        android:layout_marginTop="10dp"
+        android:onClick="save_all_doc"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <ProgressBar
+            android:visibility="gone"
+            android:indeterminateTint="@color/colorPrimaryDark"
+            android:id="@+id/progressBar"
+            android:layout_centerInParent="true"
+            android:indeterminate="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+    </RelativeLayout>

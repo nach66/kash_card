@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:textDirection="rtl"
+    android:gravity="center"
+    android:background="@mipmap/reka"
+    android:orientation="vertical"
+    tools:context=".choose_edit">
+
+    <TextView
+        android:id="@+id/a"
+        android:text="מה ברצונך לערוך?"
+        android:textColor="#f0f0f0"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/b"
+        android:layout_below="@+id/a"
+        android:onClick="dis"
+        android:text="הטבות קבועות"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_below="@+id/b"
+        android:id="@+id/c"
+        android:onClick="cop"
+        android:text="קופונים"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_below="@+id/c"
+        android:onClick="show"
+        android:text="הופעות ואירועים"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="locale"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@mipmap/reka"
+    tools:context=".justshow">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:hint="Title"
+        android:gravity="center"
+        android:textColor="#f0f0f0"
+        android:paddingBottom="20dp"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title"
+        android:gravity="start"
+        android:hint="Text"
+        android:textColor="#f0f0f0"
+        android:textAlignment="textStart"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/buy"
+        android:layout_below="@+id/t2"
+        android:clickable="true"
+        android:autoLink="web"
+        android:cursorVisible="true"
+        android:linksClickable="true"
+        android:onClick="goTourl"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+
+        android:visibility="gone"
+        android:textColor="#f0f0f0"
+        android:text="לרכישה"
+        android:background="@drawable/buttonshape"
+        android:textSize="20dp"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        />
+
+</RelativeLayout>

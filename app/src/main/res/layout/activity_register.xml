@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:textDirection="rtl"
+    android:orientation="vertical"
+    android:padding="55dp"
+    android:background="@mipmap/reka"
+    android:animateLayoutChanges="true"
+    tools:context=".register">
+
+<TextView
+    android:fontFamily="cursive"
+    android:id="@+id/title"
+    android:text="טופס הרשמה"
+    android:textStyle="bold"
+    android:textColor="#cccccc"
+    android:gravity="center"
+    android:textSize="25dp"
+    android:layout_width="250dp"
+    android:layout_centerHorizontal="true"
+    android:layout_height="wrap_content" />
+<EditText
+    android:id="@+id/email"
+    android:layout_below="@+id/title"
+    android:textColor="#f0f0f0"
+    android:textColorHint="#cccccc"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:inputType="textEmailAddress"
+    android:hint="דואר אלקטרוני" />
+<EditText
+    android:id="@+id/password"
+    android:layout_below="@+id/email"
+    android:textColor="#f0f0f0"
+    android:textColorHint="#cccccc"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:hint="סיסמה בת 8 תווים" />
+<EditText
+    android:id="@+id/confirmPassword"
+    android:layout_below="@+id/password"
+    android:textColor="#f0f0f0"
+    android:textColorHint="#cccccc"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:hint="אישור סיסמה"/>
+    <EditText
+    android:id="@+id/naa"
+    android:hint="שם פרטי ומשפחה"
+    android:layout_below="@+id/confirmPassword"
+    android:textColor="#f0f0f0"
+    android:textColorHint="#cccccc"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true" />
+<EditText
+    android:id="@+id/date"
+    android:hint="תאריך לידה"
+    android:layout_below="@+id/naa"
+    android:textColor="#f0f0f0"
+    android:textColorHint="#cccccc"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true" />
+    <EditText
+        android:id="@+id/tz"
+        android:hint="ת.ז"
+        android:layout_below="@+id/date"
+        android:textColor="#f0f0f0"
+        android:textColorHint="#cccccc"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:background="@drawable/but"
+        android:shadowColor="#FFFFFF"
+        android:textSize="26dp"
+        android:id="@+id/save_user"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="שלח" />
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="רשימת משתמשים" app:showAsAction="never"
+        android:id="@+id/pl"/>
+
+    <item android:title="עריכה" app:showAsAction="never"
+        android:id="@+id/editor"/>
+
+    <item android:title="צ'אט" app:showAsAction="never"
+        android:id="@+id/cht"/>
+
+    <item android:title="אודות" app:showAsAction="never"
+        android:id="@+id/od"/>
+
+    <item android:title="התנתקות" app:showAsAction="never"
+        android:id="@+id/menu_signout"/>
+</menu>

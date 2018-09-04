@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".p_details"
+    android:layoutDirection="locale"
+    android:padding="28dp"
+    android:gravity="center"
+    android:background="@mipmap/reka"
+    android:orientation="vertical">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/n"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#f0f0f0"
+        android:textSize="28dp" />
+    <TextView
+        android:gravity="center"
+        android:textColor="#f0f0f0"
+        android:id="@+id/t"
+        android:textStyle="bold"
+        android:layout_below="@+id/n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/b"
+        android:gravity="center"
+        android:textColor="#f0f0f0"
+        android:layout_below="@+id/t"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/m"
+        android:gravity="center"
+        android:layout_below="@+id/b"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#f0f0f0"
+        android:textSize="19dp" />
+    <TextView
+        android:id="@+id/c"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_below="@+id/m"
+        android:textColor="#f0f0f0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="34dp"
+        android:textSize="19dp" />
+
+    <Button
+        android:layout_marginBottom="8dp"
+        android:id="@+id/ishur"
+        android:visibility="gone"
+        android:layout_below="@id/c"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="אישור פרטי משתמש - הפעלה"/>
+
+    <Button
+        android:layout_marginBottom="8dp"
+        android:id="@+id/bitul"
+        android:visibility="gone"
+        android:layout_below="@+id/ishur"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ביטול פרטי משתמש - חסימה"/>
+
+
+</RelativeLayout>

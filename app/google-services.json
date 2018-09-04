@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1032544413534",
+    "firebase_url": "https://oofbemet.firebaseio.com",
+    "project_id": "oofbemet",
+    "storage_bucket": "oofbemet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032544413534:android:4491b21a5019316b",
+        "android_client_info": {
+          "package_name": "com.example.admin.card"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032544413534-lo321u9muisoqn46mn2erad8vung18jt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXggI_ziSfS-Au-vUnNeGfI89dARZTuak"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
